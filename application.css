@@ -1,0 +1,40 @@
+#container {
+    height: 100vh;
+}
+
+.info {
+    font-size: 18px;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #4B557C;
+    padding: 10px;
+    border: 1px solid #1B2650;
+    color: #FFF;
+}
+
+#spinner {
+    display: none;
+}
+
+#toolbar {
+    position: fixed;
+    z-index: 100;
+    padding: 5px;
+    background-color: #FFE0B2;
+    display: flex;
+}
+
+#search-bar {
+    display: none;
+    align-items: center;
+}
+
+#search-bar label {
+    margin-right: 5px;
+}
+
+#search-bar input[type=checkbox] {
+    margin-left: 5px;
+}

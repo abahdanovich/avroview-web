@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Avro viewer</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="vendors/normalize.min.css">
+    <link rel="stylesheet" href="vendors/vis/vis.min.css">
+    <link rel="stylesheet" href="application.css">
+
+    <script src="vendors/jquery.min.js"></script>
+    <script src="vendors/lodash.min.js"></script>
+    <script src="vendors/vis/vis.min.js"></script>
+    <script src="application.js"></script>
+</head>
+<body>
+<div id="toolbar">
+    <div id="search-bar">
+        <label>Search: </label><input type="text" name="search" class="search">
+        <input type="checkbox" name="name" checked="checked"><label>name</label>
+        <input type="checkbox" name="description"><label>description</label>
+    </div>
+    <div id="open-bar">
+        <input type="file" />
+    </div>
+</div>
+<div id="container"></div>
+<div id="spinner" class="info">loading...</div>
+</body>
+</html>
